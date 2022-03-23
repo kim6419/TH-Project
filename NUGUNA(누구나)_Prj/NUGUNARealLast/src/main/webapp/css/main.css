@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+
+
+
+
+
+
+
+/*--------------------중간박스----------------------*/
+
+.midBox{
+	width: 100%;
+	background-color: white;
+    padding-top: 100px;
+    z-index: 1000;
+}
+
+.LeftRight{
+    display: flex;
+    width: 85%;
+    height: 520px;
+/*     background-color: #e6efff; */
+}
+
+.Box1{
+	width:45%;
+	align-self: center;
+	height: 520px;
+	padding: 10px 34px 0 0;
+}
+.Box2{
+	width:55%;
+	align-self: center;
+	height: 520px;
+	padding: 0 0 0 10px;
+}
+
+.control{
+margin-top: -34px;	
+}
+
+.Box1 .board_list_wrap{
+	width:100%;
+}
+
+.Box1 .board_list{
+	height:100%;
+	font-weight: bold;
+}
+
+.board_list .top{
+	margin-bottom:17px;
+	background: #005b93;
+    color: white;
+}
+
+.board_list div{
+	margin-bottom:10px;
+}
+
+span.num {
+    width: 10%;
+    display: inline-block;
+}
+
+span.title {
+    width: 47%;
+    display: inline-block;
+}
+
+span.writer {
+    width: 11%;
+    display: inline-block;
+}
+
+span.date {
+    width: 15%;
+    display: inline-block;
+}
+
+span.count {
+    width: 7%;
+    display: inline-block;
+}
+
+
+.Box2 .slideshow{
+	height: 520px;
+}
+
+.buttonBox {
+	position: relative;
+}
+
+.Box2 .slideshow .prev {
+    float: left;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 10000;
+    padding-top: 33%;
+}
+
+.Box2 .slideshow .next {
+    float: right;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 10000;
+    padding-top: 33%;
+}
+
+.slideshowBox{ 	
+ 	width: 100%;
+    height: 100%;
+	text-align: center;
+ 	overflow: hidden; 
+}
+
+.slidePanel{
+	position: relative;
+	width:100%;
+	height: 480px;
+}
+
+.slideImage{
+	float: left;
+	width:100%;
+	height: 480px;
+	z-index: 100000;
+}
+
+#tabImage{
+	border-top-style: outset;
+    padding: 23px;
+    border-bottom-style: outset;
+}
+
+#tabImage img{
+	height: 600px;
+    width: 831px;
+}
+
+section.companyInfo {
+    margin-top: 40px;
+}
+
+
+.Box2 .slideshow .prev:hover {opacity: 0.6; cursor: pointer;}
+.Box2 .slideshow .next:hover {opacity: 0.6; cursor: pointer;}
+.control img:hover{opacity: 0.6; cursor: pointer;}
+.slidePanel img:hover{opacity: 0.5; cursor: pointer;}

@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+#completArea {
+	position:relative;
+	width:1300px;
+	height: 800px;
+	background-color:white;
+}
+
+.completeArea {
+	position:relative;
+	text-align:center;
+
+}
+
+.img {
+	position:relative;
+	top:0px;
+	width:500px;
+	height:350px;
+}
+
+.img img {
+	position:relative;
+	width:500px;
+	height:350px;
+}

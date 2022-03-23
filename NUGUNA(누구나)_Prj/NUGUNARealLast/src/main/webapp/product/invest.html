@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>투자하기 정보 </title>
+		<link href="css/menu1.css" rel="stylesheet" type="text/css">
+		<link href="css/menu4.css" rel="stylesheet" type="text/css">
+		<script src="js/jquery-3.6.0.min.js"></script>
+		
+		<!-- 공통 CSS & JS -->
+		<link href="../css/commonMenu.css" rel="stylesheet" type="text/css">
+		<script src="../js/commonMenu.js"></script>
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="container">
+			<header class="headBox">
+				<div class="mainmenuBox">
+					<ul class="logo">
+						<li><a href="../main.html"><img id="logoimg" src="../image/로고4.jpg" alt="NUGUNA"></a></li>
+					</ul>
+					<ul class="mainmenu">
+						<li class="dropBox"><a href="#">커뮤니티</a>
+							<ul class="dropmenu">
+								<li><a class="dropdown-item" href="../community/list.html">전체글보기</a></li>
+								<li><a class="dropdown-item" href="../community/write.html">글쓰기</a></li>
+							</ul>
+						</li>
+						<li class="dropBox"><a href="#">투자하기</a>
+							<ul class="dropmenu">
+								<li><a class="dropdown-item" href="../product/index1.html">전체투자상품</a></li>
+								<li><a class="dropdown-item" href="../product/list02.html">개별상품조회</a></li>
+								<li><a class="dropdown-item" href="../product/list02.html">투자하기</a></li>
+							</ul>
+						</li>
+						<li class="dropBox"><a href="#">로그인</a>
+							<ul class="dropmenu">
+								<li><a class="dropdown-item" href="../logIn/login.html">로그인</a></li>
+								<li><a class="dropdown-item" href="../logIn/join.html">회원가입</a></li>
+							</ul>
+						</li>
+						<li class="dropBox"><a href="#">고객센터</a>
+							<ul class="dropmenu">
+								<li><a class="dropdown-item" href="../customer/CustomerCenter.html">자주묻는질문</a></li>
+								<li><a class="dropdown-item" href="../customer/Chatting.html">1:1문의</a></li>
+							</ul>
+						</li>
+						<li class="dropBox"><a href="#">수익현황</a>
+							<ul class="dropmenu">
+								<li><a class="dropdown-item" href="../customer/Status.html">수익현황조회</a></li>
+							</ul>
+						</li>
+						
+					</ul>
+				</div>
+				
+			</header>
+			<div id='emptyBox'></div>
+			</div>	
+		</div>
+		<!-- Header 끝 -->
+		
+		
+		</div>	
+			<div id="informationArea">
+				<section>
+					<div class="titleArea"><h1>프랜차이즈 -> BHC -> 투자하기</h1></div>
+						<div class="informationBox">
+							<div class="informationImg">
+								<img src="image/bhc.jpg">
+							</div>
+							<div class="informationListArea">
+								<ul class="informationList">
+									<li>이름<br><br>
+									<li>목표 금액<br><br>
+									<li>투자할 금액 : <br><br>
+									<li>결제 정보 입력 :<br>
+									<input type="radio" name="pay" value="결제정보" checked>신용카드
+			                        <input type="radio" name="pay" value="결제정보">계좌이체
+			                        <input type="radio" name="pay" value="결제정보">무통장입금<br>
+				                        <select class ="payment">
+											<option value="">카드선택
+											<option value="NH농협">NH농협
+											<option value="전북">전북
+											<option value="KB">KB
+											<option value="하나">하나
+											<option value="신한">신한
+											<option value="삼성">삼성
+				                        </select><br><br>
+			                        동의하시겠습니까?
+			                        <input type="radio" name="agree" value="동의정보" checked>예
+			                        <input type="radio" name="agree" value="동의정보">아니오<br><br><br>
+			                        <div class="informationBtn">
+			                        	<span class="payBtn"><a href="thanks.html">결제하기</a></span>
+			                        </div>
+								</ul>
+							</div>
+						</div>
+				</section>
+			</div>
+			
+			<div class="clear"></div>
+			 <!-- footer 바닥, 위로 올라가기 -->
+	    <div class="wrap">
+			<footer id="footerBox">
+				<h1>회사정보</h1>
+				<div>
+					<div id="bottomMenuBox">
+						<ul id="bottomMenuItem">
+							<li><a href="#">회사소개</a></li>
+							<li><a href="#">이용약관</a></li>
+							<li><a href="#">개인정보 처리방침</a></li>
+							<li><a href="#">전자금융거래약관</a></li>
+							<li><a href="#">보안센터</a></li>
+							<li><a href="#">채용정보 인재환영</a></li>
+						</ul>
+						<p>
+							Home : Location Log : Tag Log : Media Log : Guestbook :
+								Admin : New Post COPYRIGHT Ⓒ NUGUNA's BLOG / DESIGNED BY NUGUNA
+						</p>
+						
+					</div>
+					<div id="moveToTopBox">
+						<img id="moveToTop" src="../image/moveToTop.png">
+					</div>
+					<div id="companyLogo">
+						<img src="../image/로고4.jpg" alt="NUGUNA">
+					</div>
+				</div>
+			</footer>
+		</div>
+		
+	</body>
+</html>

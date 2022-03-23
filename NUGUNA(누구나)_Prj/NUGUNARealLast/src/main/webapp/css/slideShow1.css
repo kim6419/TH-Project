@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+#contentArea section {
+	/* width: 25%; */
+	width:650px;
+	margin-right: 5%;
+	height: 400px;
+	float: left;
+	/* padding-left: 10%; */
+	background-color: white;
+	margin-bottom: 30px;	
+}
+#contentArea section:nth-child(2n) {
+	margin-right: 0px;
+}
+
+.clear {
+	clear: both;
+}
+
+.titleArea {
+	position: relative;
+	/* height:320px;
+	line-height:320px; */
+}
+.btnArea {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	text-decoration:none;
+}
+
+.prevBtn, .nextBtn, .moreBtn {
+	border-radius: 5px;
+	background-color: white;
+	color: #333333;
+	cursor:pointer;	
+}
+
+.moreBtn {
+	border:solid 3px #cccccc;
+}
+
+.prevBtn, .nextBtn, .moreBtn:hover {
+	opacity:10;
+}
+
+/* slideShowBox */
+.itemArea {
+	position: absolute;
+	top: 20px;
+	left: 0px;
+	float: left;
+	margin: 5px;
+	width:650px;
+	cursor:pointer;
+	overflow:hidden;
+	/* text-align:center; */
+}
+
+/* slidePanel */
+.item {
+	position:relative;
+	width:1300px;
+	height:348px;
+}
+
+.item img {
+	width: 200PX;
+	height: 308px;
+	margin:5px;
+}
+
+.item h4 {
+	text-align: center;
+	border: 1px solid gray;
+	border-radius: 3px;
+}
+
+.item2 {
+	position:relative;
+	width:1450px;
+	height:348px;
+	
+}
+
+.item2 img {
+	width: 200PX;
+	height: 308px;
+	margin:5px;
+}
+
+.item2 h4 {
+	text-align: center;
+	border: 1px solid gray;
+	border-radius: 3px;
+}
+
+.item3 {
+	position:relative;
+	width:1450px;
+	height:348px;
+	
+}
+
+.item3 img {
+	width: 200PX;
+	height: 308px;
+	margin:5px;
+}
+
+.item3 h4 {
+	text-align: center;
+	border: 1px solid gray;
+	border-radius: 3px;
+}
+
+.item4 {
+	position:relative;
+	width:1450px;
+	height:348px;
+	
+}
+
+.item4 img {
+	width: 200PX;
+	height: 308px;
+	margin:5px;
+}
+
+.item4 h4 {
+	text-align: center;
+	border: 1px solid gray;
+	border-radius: 3px;
+}
+
+.slideArea {
+	position:relative;
+	margin: 0 auto;
+	width: 150px;
+	padding-top:310px;
+}
+
+.slideIcon {
+	width: 15px;
+	height: 15px;
+	background-color: gray;
+	float: left;
+	border-radius: 15px;
+	margin-right: 3px;
+}
+
+.slideIcon:hover {
+	background-color:red;
+}

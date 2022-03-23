@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>ex1</title>
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+	<script src="jquery-3.6.0.min.js"></script>
+	<script src="js/main.js"></script>
+	
+	<!-- 공통 CSS & JS -->
+	<link href="./css/commonMenu.css" rel="stylesheet" type="text/css">
+	<script src="./js/commonMenu.js"></script>
+	
+</head>
+
+<body>
+	<section class="wrap">
+		<h1>메인화면</h1>
+		<!-- ----------------------------------------------------------------------------------------- -->
+		<div class="container">
+			<header class="headBox">
+				<div class="mainmenuBox">
+					<ul class="logo">
+						<li><a href="main.html"><img id="logoimg" src="image/로고4.jpg" alt="NUGUNA"></a></li>
+					</ul>
+					<ul class="mainmenu">
+						<li class="dropBox"><a href="#">커뮤니티</a>
+							<ul class="dropmenu">
+								<li><a class="dropdown-item" href="community/list.html">전체글보기</a></li>
+								<li><a class="dropdown-item" href="community/write.html">글쓰기</a></li>
+							</ul>
+						</li>
+						<li class="dropBox"><a href="#">투자하기</a>
+							<ul class="dropmenu">
+								<li><a class="dropdown-item" href="product/index1.html">전체투자상품</a></li>
+								<li><a class="dropdown-item" href="product/list02.html">개별상품조회</a></li>
+								<li><a class="dropdown-item" href="product/list02.html">투자하기</a></li>
+							</ul>
+						</li>
+						<li class="dropBox"><a href="#">로그인</a>
+							<ul class="dropmenu">
+								<li><a class="dropdown-item" href="logIn/login.html">로그인</a></li>
+								<li><a class="dropdown-item" href="logIn/join.html">회원가입</a></li>
+							</ul>
+						</li>
+						<li class="dropBox"><a href="#">고객센터</a>
+							<ul class="dropmenu">
+								<li><a class="dropdown-item" href="customer/CustomerCenter.html">자주묻는질문</a></li>
+								<li><a class="dropdown-item" href="customer/Chatting.html">1:1문의</a></li>
+							</ul>
+						</li>
+						<li class="dropBox"><a href="#">수익현황</a>
+							<ul class="dropmenu">
+								<li><a class="dropdown-item" href="customer/Status.html">수익현황조회</a></li>
+							</ul>
+						</li>
+						
+					</ul>
+				</div>
+			</header>
+		</div>
+		
+		<section class="midBox">
+			<h1>중간박스</h1>
+			<div class="LeftRight">
+				<section class="Box1">
+					<h1>커뮤니티게시판</h1>
+					<div class="board_list_wrap">
+						<div class="board_list">
+							<div class="top">
+								<span class="num">번호</span> <span class="title">제목</span> <span
+									class="writer">글쓴이</span> <span class="date">작성일</span> <span
+									class="count">조회</span>
+							</div>
+							<div>
+								<span class="num">5</span> <span class="title"><a href="community/view.html">오늘 회사에서...</a></span>
+								<span class="writer">정만식</span>
+								<span class="date">12.20</span> <span class="count">28</span>
+							</div>
+							<div>
+								<span class="num">4</span> <span class="title"><a href="community/view.html">여기 글쓰는거맞음?</a></span>
+								<span class="writer">김춘식</span>
+								<span class="date">12.19</span> <span class="count">33</span>
+							</div>
+							<div>
+								<span class="num">3</span> <span class="title"><a href="community/view.html">안녕하세요
+										윤만식입니다.</a></span> <span class="writer">윤만식</span>
+								<span class="date">12.18</span> <span class="count">15</span>
+							</div>
+							<div>
+								<span class="num">2</span> <span class="title"><a href="community/view.html">코인물렸음..바보짓을
+										ㅜㅜ</a></span> <span class="writer">정춘식</span>
+								<span class="date">12.18</span> <span class="count">23</span>
+							</div>
+							<div>
+								<span class="num">1</span> <span class="title"><a href="community/view.html">이거 다들
+										봤어요!!??</a></span> <span class="writer">고만식</span>
+								<span class="date">12.17</span> <span class="count">13</span>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="Box2">
+					<h1>투자상품소개</h1>
+					<div class="slideshow">
+						<div class="buttonBox">
+							<img class="prev" src="image/prevButton.png" alt="prev"> <img class="next"
+								src="image/nextButton.png" alt="next">
+						</div>
+						<div class="slideshowBox">
+							<div class="slidePanel">
+							<a href="product/information.html">
+								<img src="image/bhc.jpg" class="slideImage"></a>
+							</div>
+						</div>
+						<div class="control">
+							<img src="image/controlButton1.png" class="control1"> <img src="image/controlButton1.png"
+								class="control2"> <img src="image/controlButton1.png" class="control3">
+						</div>
+					</div>
+				</section>
+			</div>
+			<div class="clear"></div>
+			<section class="companyInfo">
+				<h1>회사광고</h1>
+				<article>
+					<div class="tabBox">
+						<div id="tabImage">
+								<img src="image/광고.jpg" alt="왜 투자를 해야하는가?">						
+						</div>					
+					</div>
+				</article>
+			</section>
+		</section>
+
+		<!-- -------------------------------슬라이드,회사광고 끝------------------------------------------ -->
+		
+		<!-- footer 바닥, 위로 올라가기 -->
+		<footer id="footerBox">
+			<h1>회사정보</h1>
+			<div>
+				<div id="bottomMenuBox">
+					<ul id="bottomMenuItem">
+						<li><a href="#">회사소개</a></li>
+						<li><a href="#">이용약관</a></li>
+						<li><a href="#">개인정보 처리방침</a></li>
+						<li><a href="#">전자금융거래약관</a></li>
+						<li><a href="#">보안센터</a></li>
+						<li><a href="#">채용정보 인재환영</a></li>
+					</ul>
+					<p>
+						Home : Location Log : Tag Log : Media Log : Guestbook :
+							Admin : New Post COPYRIGHT Ⓒ NUGUNA's BLOG / DESIGNED BY NUGUNA
+					</p>
+					
+				</div>
+				<div id="moveToTopBox">
+					<img id="moveToTop" src="image/moveToTop.png">
+				</div>
+				<div id="companyLogo">
+					<img src="image/로고4.jpg" alt="NUGUNA">
+				</div>
+			</div>
+		</footer>
+
+	</section>
+
+
+</body>
+
+</html>

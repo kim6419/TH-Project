@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>수익 현황</title>
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<link rel = 'stylesheet' href = 'css/Status.css'>
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+		<script type = "text/javascript" src = 'js/Status.js'>
+		</script>
+		
+		<!-- 공통 CSS & JS -->
+		<link href="../css/commonMenu.css" rel="stylesheet" type="text/css">
+		<script src="../js/commonMenu.js"></script>
+		
+	</head>
+	
+	<body>
+	
+	
+		<div class="wrap">
+			<div class="container">
+			<header class="headBox">
+				<div class="mainmenuBox">
+					<ul class="logo">
+						<li><a href="../main.html"><img id="logoimg" src="../image/로고4.jpg" alt="NUGUNA"></a></li>
+					</ul>
+					<ul class="mainmenu">
+						<li class="dropBox"><a href="#">커뮤니티</a>
+							<ul class="dropmenu">
+								<li><a class="dropdown-item" href="../community/list.html">전체글보기</a></li>
+								<li><a class="dropdown-item" href="../community/write.html">글쓰기</a></li>
+							</ul>
+						</li>
+						<li class="dropBox"><a href="#">투자하기</a>
+							<ul class="dropmenu">
+								<li><a class="dropdown-item" href="../product/index1.html">전체투자상품</a></li>
+								<li><a class="dropdown-item" href="../product/list02.html">개별상품조회</a></li>
+								<li><a class="dropdown-item" href="../product/list02.html">투자하기</a></li>
+							</ul>
+						</li>
+						<li class="dropBox"><a href="#">로그인</a>
+							<ul class="dropmenu">
+								<li><a class="dropdown-item" href="../logIn/login.html">로그인</a></li>
+								<li><a class="dropdown-item" href="../logIn/join.html">회원가입</a></li>
+							</ul>
+						</li>
+						<li class="dropBox"><a href="#">고객센터</a>
+							<ul class="dropmenu">
+								<li><a class="dropdown-item" href="../customer/CustomerCenter.html">자주묻는질문</a></li>
+								<li><a class="dropdown-item" href="../customer/Chatting.html">1:1문의</a></li>
+							</ul>
+						</li>
+						<li class="dropBox"><a href="#">수익현황</a>
+							<ul class="dropmenu">
+								<li><a class="dropdown-item" href="../customer/Status.html">수익현황조회</a></li>
+							</ul>
+						</li>
+						
+					</ul>
+				</div>
+				
+			</header>
+			<div id='emptyBox'></div>
+			</div>	
+		</div>
+		<!-- Header 끝 -->
+		
+		<!-- 수익 현황 부분 체크하기 -->
+		<div class = 'StatusContainer'>
+			<div id = 'Title'>
+				<img id = 'myRevenueImg' src = 'image/myRevenue.png'>
+				<h2>내 수익 현황</h2>
+			</div>
+		</div>
+		<div class = 'StatusContainer'>
+			<div id = 'StatusMain'>
+				<div class = 'StatusBox'>
+					<img id='StatusBoxImg' src = 'image/invest1.jpg'>
+					<p> 나의 투자 1</p>
+					<h2 class='StatusNum'>+1,200,000</h2>
+					<a href='StatusAll.html'>자세히</a>
+				</div>
+				<div class = 'StatusBox'>
+					<img id='StatusBoxImg' src = 'image/invest2.jpg'>
+					<p> 나의 투자 2</p>
+					<h2 class='StatusNum'>-1,200,000</h2>
+					<a href='StatusAll.html'>자세히</a>
+				</div>
+				<div class = 'StatusBox'>
+					<img id='StatusBoxImg' src = 'image/invest3.jpg'>
+					<p> 나의 투자 3</p>
+					<h2 class='StatusNum'>+1,200,000</h2>
+					<a href='StatusAll.html'>자세히</a>
+				</div>
+			</div>
+			
+			<div id='allStatusBtn'><a href='StatusAll.html'><span>▶</span>&nbsp;전체 확인하기</a></div>
+			
+			<div><h1 id='sumStatus'>총 10,000,000 원</h1></div>
+			<hr>
+		</div>
+		
+		<div class = 'StatusContainer'>
+			<div id='chartStyle'>
+				<canvas id="myChart"></canvas>
+			</div>
+		</div>
+		<script src="js/Charts.js"></script>
+		
+		 <!-- footer 바닥, 위로 올라가기 -->
+	    <div class="wrap">
+			<footer id="footerBox">
+				<h1>회사정보</h1>
+				<div>
+					<div id="bottomMenuBox">
+						<ul id="bottomMenuItem">
+							<li><a href="#">회사소개</a></li>
+							<li><a href="#">이용약관</a></li>
+							<li><a href="#">개인정보 처리방침</a></li>
+							<li><a href="#">전자금융거래약관</a></li>
+							<li><a href="#">보안센터</a></li>
+							<li><a href="#">채용정보 인재환영</a></li>
+						</ul>
+						<p>
+							Home : Location Log : Tag Log : Media Log : Guestbook :
+								Admin : New Post COPYRIGHT Ⓒ NUGUNA's BLOG / DESIGNED BY NUGUNA
+						</p>
+						
+					</div>
+					<div id="moveToTopBox">
+						<img id="moveToTop" src="../image/moveToTop.png">
+					</div>
+					<div id="companyLogo">
+						<img src="../image/로고4.jpg" alt="NUGUNA">
+					</div>
+				</div>
+			</footer>
+		</div>
+	
+	</body>
+
+</html>

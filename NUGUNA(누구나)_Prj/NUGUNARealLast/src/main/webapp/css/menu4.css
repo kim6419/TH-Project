@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+#informationArea section {
+	width: 1200px;
+	margin-right: 5%;
+	height: 650px;
+	float: left;
+	padding-left: 10%;
+	background-color: white;
+	margin-bottom: 30px;
+}
+
+.informationBox {
+	position:relative;
+	width: 800px;
+	height:550px;
+	background-color:white;
+	float:left;
+}
+
+.informationImg {
+	position:relative;
+	width:300px;
+	height:300px;
+}
+
+.informationListArea {
+	position:absolute;
+	float:right;
+	padding:5px;
+	color:black;
+	font-weight:bold;
+	text-decoration:none;
+	right:0px;
+	top:0px;
+}
+.informationList {
+	list-style:none;
+}
+.informationList ul {
+	margin:20px;
+	padding:10%;
+}
+
+.informationList ul li {
+	margin:20px;
+	padding:10%;
+}
+.informationBtn {
+	position:relative;
+	text-align:center;
+	width: 100%;
+}
+.informationBtn a {
+	text-decoration: none;
+	color: black;
+	display: block;
+	border:solid 3px #cccccc;
+	border-radius:7px;
+	padding:10px;
+}
+
+.informationBtn a:hover {
+	background: #93e263;
+	color: white;
+}

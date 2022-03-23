@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+
+*{
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+
+/** 공통 컨테이너 박스 설정 **/
+
+.StatusContainer {
+	width: 1080px;
+    height: 100%;
+    padding: 0 20px;
+}
+
+
+#Title h2 {
+	display: inline;
+}
+#return {
+	float:right;
+	text-decoration: none;
+	color: gray;
+}
+#myRevenueImg{
+	width: 30px;
+	hieght: 30px;
+}
+
+
+
+/*********** 전체 수익현황 자세히 확인 *****************/
+
+		/**** FLex Box ****/
+
+#StatusFlex {
+	display: flex;
+	margin: 40px auto;
+	box-shadow: 5px 5px 5px 5px gray;
+}
+#AllStatusMenu {
+	flex: 1;
+	background: #4b9cf5;
+	border-top-right-radius: 40px;
+	border-bottom-right-radius: 40px;
+	padding: 20px;
+	padding-left: 0;
+	font-size: 25px
+	
+}
+#FadeStatusMenu{
+	flex: 3;
+	padding: 90px;
+}
+
+		/*** Status List 목차 ***/
+		
+ul{
+	list-style: none;
+}
+
+#StatusList a{
+	
+	display: block;
+	margin: 50px 0;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+#StatusList hr{
+	border: dotted 2px white;
+}
+
+
+
+
+
+
+
+
+
+
+/***** CHART STYLE *****/
+
+#chartStyle {
+	width: 600px;
+	margin: 50px auto;
+}

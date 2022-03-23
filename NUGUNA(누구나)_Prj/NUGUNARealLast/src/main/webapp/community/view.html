@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>커뮤니티 게시판</title>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <link rel="stylesheet" href="css/css.css">
+        
+       <!-- 공통 CSS & JS -->
+	<link href="../css/commonMenu.css" rel="stylesheet" type="text/css">
+	<script src="../js/commonMenu.js"></script>
+</head>
+<body>
+	<div class="wrap">
+			<div class="container">
+			<header class="headBox">
+				<div class="mainmenuBox">
+					<ul class="logo">
+						<li><a href="../main.html"><img id="logoimg" src="../image/로고4.jpg" alt="NUGUNA"></a></li>
+					</ul>
+					<ul class="mainmenu">
+						<li class="dropBox"><a href="#">커뮤니티</a>
+							<ul class="dropmenu">
+								<li><a class="dropdown-item" href="../community/list.html">전체글보기</a></li>
+								<li><a class="dropdown-item" href="../community/write.html">글쓰기</a></li>
+							</ul>
+						</li>
+						<li class="dropBox"><a href="#">투자하기</a>
+							<ul class="dropmenu">
+								<li><a class="dropdown-item" href="../product/index1.html">전체투자상품</a></li>
+								<li><a class="dropdown-item" href="../product/list02.html">개별상품조회</a></li>
+								<li><a class="dropdown-item" href="../product/list02.html">투자하기</a></li>
+							</ul>
+						</li>
+						<li class="dropBox"><a href="#">로그인</a>
+							<ul class="dropmenu">
+								<li><a class="dropdown-item" href="../logIn/login.html">로그인</a></li>
+								<li><a class="dropdown-item" href="../logIn/join.html">회원가입</a></li>
+							</ul>
+						</li>
+						<li class="dropBox"><a href="#">고객센터</a>
+							<ul class="dropmenu">
+								<li><a class="dropdown-item" href="../customer/CustomerCenter.html">자주묻는질문</a></li>
+								<li><a class="dropdown-item" href="../customer/Chatting.html">1:1문의</a></li>
+							</ul>
+						</li>
+						<li class="dropBox"><a href="#">수익현황</a>
+							<ul class="dropmenu">
+								<li><a class="dropdown-item" href="../customer/Status.html">수익현황조회</a></li>
+							</ul>
+						</li>
+						
+					</ul>
+				</div>
+				
+			</header>
+			<div id='emptyBox'></div>
+			</div>	
+		</div>
+		<!-- Header 끝 -->
+	
+    <div class="board_wrap">
+        <div class="board_title">
+            <strong>커뮤니티 게시판</strong>
+            <p>커뮤니티 게시판 입니다.</p>
+        </div>
+        <div class="board_view_wrap">
+            <div class="board_view">
+                <div class="title">
+                    글 제목이 들어갑니다.
+                </div>
+                <div class="info">
+                    <dl>
+                        <dt>번호</dt>
+                        <dd>1</dd>
+                    </dl>
+                    <dl>
+                        <dt>글쓴이</dt>
+                        <dd>고만식</dd>
+                    </dl>
+                    <dl>
+                        <dt>작성일</dt>
+                        <dd>2021.12.17</dd>
+                    </dl>
+                    <dl>
+                        <dt>조회</dt>
+                        <dd>13</dd>
+                    </dl>
+                </div>
+                <div class="cont">
+                    글 내용이 들어갑니다<br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <div class="bt_wrap">
+                <a href="list.html" class="on">목록</a>
+                <a href="edit.html">수정</a>
+            </div>
+        </div>
+    </div>
+    
+     <!-- footer 바닥, 위로 올라가기 -->
+    <div class="wrap">
+		<footer id="footerBox">
+			<h1>회사정보</h1>
+			<div>
+				<div id="bottomMenuBox">
+					<ul id="bottomMenuItem">
+						<li><a href="#">회사소개</a></li>
+						<li><a href="#">이용약관</a></li>
+						<li><a href="#">개인정보 처리방침</a></li>
+						<li><a href="#">전자금융거래약관</a></li>
+						<li><a href="#">보안센터</a></li>
+						<li><a href="#">채용정보 인재환영</a></li>
+					</ul>
+					<p>
+						Home : Location Log : Tag Log : Media Log : Guestbook :
+							Admin : New Post COPYRIGHT Ⓒ NUGUNA's BLOG / DESIGNED BY NUGUNA
+					</p>
+					
+				</div>
+				<div id="moveToTopBox">
+					<img id="moveToTop" src="../image/moveToTop.png">
+				</div>
+				<div id="companyLogo">
+					<img src="../image/로고4.jpg" alt="NUGUNA">
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

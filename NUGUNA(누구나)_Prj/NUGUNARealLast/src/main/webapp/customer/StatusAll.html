@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>전체 수익 현황 및 정보 확인</title>
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<link rel = 'stylesheet' href = 'css/StatusAll.css'>
+		<script src="js/StatusAll.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+		
+		<!-- 공통 CSS & JS -->
+		<link href="../css/commonMenu.css" rel="stylesheet" type="text/css">
+		<script src="../js/commonMenu.js"></script>
+		
+	</head>
+	
+	<body>
+	
+		<div class="wrap">
+			<div class="container">
+			<header class="headBox">
+				<div class="mainmenuBox">
+					<ul class="logo">
+						<li><a href="../main.html"><img id="logoimg" src="../image/로고4.jpg" alt="NUGUNA"></a></li>
+					</ul>
+					<ul class="mainmenu">
+						<li class="dropBox"><a href="#">커뮤니티</a>
+							<ul class="dropmenu">
+								<li><a class="dropdown-item" href="../community/list.html">전체글보기</a></li>
+								<li><a class="dropdown-item" href="../community/write.html">글쓰기</a></li>
+							</ul>
+						</li>
+						<li class="dropBox"><a href="#">투자하기</a>
+							<ul class="dropmenu">
+								<li><a class="dropdown-item" href="../product/index1.html">전체투자상품</a></li>
+								<li><a class="dropdown-item" href="../product/list02.html">개별상품조회</a></li>
+								<li><a class="dropdown-item" href="../product/list02.html">투자하기</a></li>
+							</ul>
+						</li>
+						<li class="dropBox"><a href="#">로그인</a>
+							<ul class="dropmenu">
+								<li><a class="dropdown-item" href="../logIn/login.html">로그인</a></li>
+								<li><a class="dropdown-item" href="../logIn/join.html">회원가입</a></li>
+							</ul>
+						</li>
+						<li class="dropBox"><a href="#">고객센터</a>
+							<ul class="dropmenu">
+								<li><a class="dropdown-item" href="../customer/CustomerCenter.html">자주묻는질문</a></li>
+								<li><a class="dropdown-item" href="../customer/Chatting.html">1:1문의</a></li>
+							</ul>
+						</li>
+						<li class="dropBox"><a href="#">수익현황</a>
+							<ul class="dropmenu">
+								<li><a class="dropdown-item" href="../customer/Status.html">수익현황조회</a></li>
+							</ul>
+						</li>
+						
+					</ul>
+				</div>
+				
+			</header>
+			<div id='emptyBox'></div>
+			</div>	
+		</div>
+		<!-- Header 끝 -->
+		
+		
+		<div class = 'StatusContainer'>
+			<div id = 'Title'>
+				<img id = 'myRevenueImg' src = 'image/myRevenue.png'>
+				<h2>내 수익 전체 확인하기 <a href = 'Status.html' id='return'>◀돌아가기</a></h2>
+			</div>
+		</div>
+		
+		<div class = 'StatusContainer' id='StatusFlex'>
+			<div id = 'AllStatusMenu'>
+				<ul id='StatusList'>
+					<li><a href='#'>뉴 욕쟁이<br>디저트</a></li>
+					<hr>
+					<li><a href='#'>Alohaiz</a></li>
+					<hr>
+					<li><a href='#'>Wadiz</a></li>
+				</ul>
+			</div>
+			
+			<div id='FadeStatusMenu'>
+				<img id='fadeImg' src='image/invest1.jpg'>
+				<h3 id='title'>뉴 욕쟁이 디저트</h3>
+				<p>담당자 : <span id='responsible'>홍길동 ( 010-1111-1111 )</span></p>
+				<hr/>
+				
+				<p>계약일 : <span id='date'>2021.11.11</span></p>
+				<h2>내 수익 : <span id='renenues'>1,200,000▲</span></h2>
+				
+				<div id='chartStyle'>
+					<canvas id=myChart width="200" ></canvas>
+				</div>
+			</div>
+		</div>
+		
+		
+		<script src="js/StatusAllChart.js"></script>
+		
+		 <!-- footer 바닥, 위로 올라가기 -->
+	    <div class="wrap">
+			<footer id="footerBox">
+				<h1>회사정보</h1>
+				<div>
+					<div id="bottomMenuBox">
+						<ul id="bottomMenuItem">
+							<li><a href="#">회사소개</a></li>
+							<li><a href="#">이용약관</a></li>
+							<li><a href="#">개인정보 처리방침</a></li>
+							<li><a href="#">전자금융거래약관</a></li>
+							<li><a href="#">보안센터</a></li>
+							<li><a href="#">채용정보 인재환영</a></li>
+						</ul>
+						<p>
+							Home : Location Log : Tag Log : Media Log : Guestbook :
+								Admin : New Post COPYRIGHT Ⓒ NUGUNA's BLOG / DESIGNED BY NUGUNA
+						</p>
+						
+					</div>
+					<div id="moveToTopBox">
+						<img id="moveToTop" src="../image/moveToTop.png">
+					</div>
+					<div id="companyLogo">
+						<img src="../image/로고4.jpg" alt="NUGUNA">
+					</div>
+				</div>
+			</footer>
+		</div>
+		
+	
+	</body>
+
+</html>

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+#completArea {
+	width:1200px;
+	height: 600px;
+	background-color:white;
+}
+
+.completeArea {
+	text-align:center;
+	margin-top:100px;
+	padding-top:100px;
+}
